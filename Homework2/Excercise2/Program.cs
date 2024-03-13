@@ -33,6 +33,26 @@ namespace Excercise2
             return perimetr;
         }
 
+        static (double, double, double) getTriangleSides(double x1, double y1, double x2, double y2, double x3, double y3)
+        {
+            double a = Math.Sqrt((Math.Pow(x1 - x2, 2) + Math.Pow(y1 - y2, 2)));
+            double b = Math.Sqrt((Math.Pow(x2 - x3, 2) + Math.Pow(y2 - y3, 2)));
+            double c = Math.Sqrt((Math.Pow(x3 - x1, 2) + Math.Pow(y3 - y1, 2)));
+            return (a, b, c);
+        }
+
+        static double getTrianglePerimetr(double a, double b, double c)
+        {
+            return a + b + c;
+        }
+
+        static double getTriangleSquare(double a, double b, double c, double perimetr)
+        {
+            double semiperimetr = perimetr / 2;
+            double square = Math.Sqrt(semiperimetr * (semiperimetr - a) * (semiperimetr - b) * (semiperimetr - c));
+            return square;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Выберите задачу:");
@@ -74,7 +94,7 @@ namespace Excercise2
 
             } else if (numberExcercise == 3) {
                 Console.WriteLine("Выбрана задача 3");
-                double x1, x2, x3, y1, y2, y3;
+                double x1, x2, x3, y1, y2, y3, a, b, c, square, perimetr;
                 Console.WriteLine("Введите x1");
                 double.TryParse(Console.ReadLine(), out x1);
                 Console.WriteLine("Введите y1");
@@ -87,7 +107,11 @@ namespace Excercise2
                 double.TryParse(Console.ReadLine(), out x3);
                 Console.WriteLine("Введите y3");
                 double.TryParse(Console.ReadLine(), out y3);
-
+                (a, b, c) = getTriangleSides(x1,y1,x2,y2,x3,y3);
+                perimetr = getTrianglePerimetr(a, b, c);
+                square = getTriangleSquare(a, b, c, perimetr);
+                Console.WriteLine("Периметр треугольника равен {0}", perimetr); 
+                Console.WriteLine("Площадь треугольника равна {0}", square);
 
             } else {
                 Console.WriteLine("Неверное значение. Допустимы только 1, 2, 3");
