@@ -1,7 +1,0 @@
-D:\Repos\course_c_sharp\Homework2\Excercise2\bin\Debug\Excercise2.exe.config
-D:\Repos\course_c_sharp\Homework2\Excercise2\bin\Debug\Excercise2.exe
-D:\Repos\course_c_sharp\Homework2\Excercise2\bin\Debug\Excercise2.pdb
-D:\Repos\course_c_sharp\Homework2\Excercise2\obj\Debug\Excercise2.csproj.AssemblyReference.cache
-D:\Repos\course_c_sharp\Homework2\Excercise2\obj\Debug\Excercise2.csproj.CoreCompileInputs.cache
-D:\Repos\course_c_sharp\Homework2\Excercise2\obj\Debug\Excercise2.exe
-D:\Repos\course_c_sharp\Homework2\Excercise2\obj\Debug\Excercise2.pdb

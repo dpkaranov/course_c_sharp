@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Excercise2"
+    "\\Exercise2",
+    "\\Exercise2\\bin\\Debug"
   ],
-  "SelectedNode": "\\Excercise2\\Program.cs",
+  "SelectedNode": "\\Exercise2\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
