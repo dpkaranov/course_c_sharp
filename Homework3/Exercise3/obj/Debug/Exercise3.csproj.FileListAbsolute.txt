@@ -1,0 +1,7 @@
+D:\Repos\course_c_sharp\Homework3\Exercise3\bin\Debug\Exercise3.exe.config
+D:\Repos\course_c_sharp\Homework3\Exercise3\bin\Debug\Exercise3.exe
+D:\Repos\course_c_sharp\Homework3\Exercise3\bin\Debug\Exercise3.pdb
+D:\Repos\course_c_sharp\Homework3\Exercise3\obj\Debug\Exercise3.csproj.AssemblyReference.cache
+D:\Repos\course_c_sharp\Homework3\Exercise3\obj\Debug\Exercise3.csproj.CoreCompileInputs.cache
+D:\Repos\course_c_sharp\Homework3\Exercise3\obj\Debug\Exercise3.exe
+D:\Repos\course_c_sharp\Homework3\Exercise3\obj\Debug\Exercise3.pdb
