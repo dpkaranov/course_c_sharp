@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercise3
+namespace Exercise3._3
 {
-    internal class Program2
+    internal class Program
     {
         static void Main(string[] args)
         {
@@ -15,12 +15,13 @@ namespace Exercise3
             string third_slog = "";
             Console.WriteLine("Программа возвращает строковое описание возраста в диапазоне от 20 до 69");
             int age = Convert.ToInt32(Console.ReadLine());
-            if (age < 20 || age > 69) {
+            if (age < 20 || age > 69)
+            {
                 Console.WriteLine("Введен недопустимы возраст. Возраст должен быть в диапазоне от 20 до 69 лет");
             }
             int first = age / 10;
             int second = age % 10;
-            
+
             switch (first)
             {
                 case 2:
@@ -84,10 +85,17 @@ namespace Exercise3
                 case 1:
                     third_slog = "год";
                     break;
-                case 2: case 3: case 4:
+                case 2:
+                case 3:
+                case 4:
                     third_slog = "года";
                     break;
-                case 0: case 5: case 6: case 7: case 8: case 9:
+                case 0:
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                case 9:
                     third_slog = "лет";
                     break;
             }
