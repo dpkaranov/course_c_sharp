@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repos\\course_c_sharp\\Homework13\\Exercise13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C62D9649-D8E3-48F7-80DE-78D0C691F215}|Exercise13.csproj|d:\\repos\\course_c_sharp\\homework13\\exercise13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62D9649-D8E3-48F7-80DE-78D0C691F215}|Exercise13.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62D9649-D8E3-48F7-80DE-78D0C691F215}|Exercise13.csproj|d:\\repos\\course_c_sharp\\homework13\\exercise13\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62D9649-D8E3-48F7-80DE-78D0C691F215}|Exercise13.csproj|solutionrelative:building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Building.cs",
+              "DocumentMoniker": "D:\\Repos\\course_c_sharp\\Homework13\\Exercise13\\Building.cs",
+              "RelativeDocumentMoniker": "Building.cs",
+              "ToolTip": "D:\\Repos\\course_c_sharp\\Homework13\\Exercise13\\Building.cs",
+              "RelativeToolTip": "Building.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T12:16:27.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repos\\course_c_sharp\\Homework13\\Exercise13\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Repos\\course_c_sharp\\Homework13\\Exercise13\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T12:10:17.469Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
