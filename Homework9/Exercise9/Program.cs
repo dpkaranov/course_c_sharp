@@ -56,6 +56,12 @@ namespace Exercise9
                     answer = X * Y;
                     break;
                 case 4:
+                    if (Y == 0)
+                    {
+                        Console.WriteLine("Ошибка! На ноль делить нельзя!");
+                        Console.ReadKey();
+                        Environment.Exit(0);
+                    }
                     answer = X / Y;
                     break;
                 default:
